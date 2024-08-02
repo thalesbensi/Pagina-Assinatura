@@ -19,8 +19,8 @@ body{
     width: 40%;
     margin: auto;
     background: white;
-    border-radius: 6px;
-    box-shadow: 1px 1px 5px 1px  ;
+    border-radius: 6px 6px 0px 0px;
+    box-shadow: 1px 1px 3px 1px rgb(179, 179, 179) inset ;
 
 }
 
@@ -43,15 +43,14 @@ body{
 .text{
     color: rgba(128, 128, 128, 0.658);
     margin-left: 50px;
-    max-width: 58ch;
     letter-spacing: -0.5px;
+    
 
 }
 
 .beside__section{
-    border-radius: 30px;
     display: flex;
-    width: 39.9%;
+    width: 40.01%;
     height: 300px;
     margin: auto;
 
@@ -62,7 +61,9 @@ body{
 .price{
     background-color: #8b7bb7;
     flex: 1;
-    
+    border-radius: 0px 0px 0px 6px;
+    box-shadow: 1px 1px 1px 1px rgb(179, 179, 179) inset ;
+        
 }
 
 .price h2{
@@ -70,12 +71,15 @@ body{
     color: white;
     font-weight: 600;
     padding-top: 18%;
-    margin-left: 10%;
+    margin-left: 5%;
+    
 }
 
 .aboutus{
     background-color: #a38fd8;
     flex: 1;
+    border-radius: 0px 0px 6px 0px ;
+    box-shadow: 1px 1px 1px 0px rgb(179, 179, 179) inset ;
 }
 
 
