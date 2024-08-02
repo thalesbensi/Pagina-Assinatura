@@ -49,18 +49,33 @@ body{
 }
 
 .beside__section{
-    border: 1px solid rgb(0, 255, 55);
+    border-radius: 30px;
     display: flex;
-    width: 39.8%;
+    width: 39.9%;
     height: 300px;
     margin: auto;
-    padding-top:7px ;
+
+
 
 }
 
-.price
+.price{
+    background-color: #8b7bb7;
+    flex: 1;
+    
+}
+
+.price h2{
+    background-color: #8b7bb7;
+    color: white;
+    font-weight: 600;
+    padding-top: 18%;
+    margin-left: 10%;
+}
+
 .aboutus{
-   justify-content: center; 
+    background-color: #a38fd8;
+    flex: 1;
 }
 
 
